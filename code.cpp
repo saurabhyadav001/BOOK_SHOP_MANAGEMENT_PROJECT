@@ -15,7 +15,6 @@ class bookshope
 };
 	void bookshope::control_panel()
 	{
-//		system("cls");
 		cout<<"\n\n\t\t\t\tControl Panel";
 		cout<<"\n\n 1. Add New Book";
 		cout<<"\n 2. Display Books";
@@ -27,7 +26,6 @@ class bookshope
 	
 	void bookshope::add_book()
 	{
-//		system("cls");
 		fstream file;
 		int no_copy;
 		string b_name,a_name,b_id;
@@ -47,7 +45,6 @@ class bookshope
 	
 	void bookshope::show_books()
 	{
-//		system("cls");
 		fstream file;
 		int no_copy;
 		string b_name,b_id,a_name;
@@ -70,7 +67,6 @@ class bookshope
 	
 	void bookshope::check_book()
 	{
-		system("cls");
 		fstream file;
 		int no_copy,count=0;
 		string b_id,b_name,a_name,b_idd;
